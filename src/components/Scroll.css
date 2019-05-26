@@ -1,6 +1,6 @@
 .scroll {
   padding: 10px;
   overflow-y: scroll;
-  border: 2px solid #0ccac4;
+  border-top: 2px solid #0ccac4;
   height: 500px;
 }
