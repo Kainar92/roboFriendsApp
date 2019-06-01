@@ -13,6 +13,7 @@ class SearchBox extends Component {
   render() {
     return (
       <div className="pa2">
+        <label>
         <input
           className="pa3 ba b--green bg-lightest-blue"
           type="search"
@@ -20,6 +21,7 @@ class SearchBox extends Component {
           onChange={this.props.searchChange}
           ref={this.searchInput}
         />
+        </label>
       </div>
     );
   }
